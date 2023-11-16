@@ -1,0 +1,54 @@
+@import 'transitions';
+@import 'icons';
+
+:root {
+  --resolution: calc(1vw + 1vh)
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #000;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  @apply bg-accent-light;
+}
+
+.dark ::selection {
+  background-color: #7c3b00;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+.container {
+  &.education, &.work, &.skills {
+    @apply py-12 border-t border-gray-200;
+  }
+}
+
+a, a:visited {
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+}
+
+a:hover {
+  @apply text-accent;
+}
+
+header a:hover {
+  @apply text-primary;
+}

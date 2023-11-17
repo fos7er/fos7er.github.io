@@ -109,13 +109,13 @@
     z-index: 1;
 
     &__text-wrapper {
-      max-width: 1200px;
+      max-width: 1000px;
     }
 
     &__title {
       margin-top: -50px;
       margin-bottom: 0.7rem;
-      font-size: calc(var(--resolution) * 1.8);
+      font-size: calc(var(--resolution) * 1.75);
       line-height: calc(var(--resolution) * 2);
       text-shadow: 0 0 15px #9f4a33;
     }

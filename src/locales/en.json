@@ -16,7 +16,7 @@
   },
   "about": {
     "title": "About me",
-    "subtitle": "Analytical mindset, responsible, easy to learn (self-learning), without bad habits, disciplined. English: B2. I can independently find information in documentation and on stack-overflow.",
+    "subtitle": "I have engineering mindset, I'm responsible, easy to learn (self-learning), without bad habits, disciplined. English: B2. I can independently find information in documentation and on stack-overflow.",
     "downloadBtnText": "Download Resume",
     "btn2Link": "https://github.com/fos7er",
     "btn2Text": "My GitHub",
@@ -67,32 +67,32 @@
       {
         "name": "javascript",
         "value": 80,
-        "color": "#f7df1e"
+        "color": "#313131"
       },
       {
         "name": "vue.js",
         "value": 80,
-        "color": "#42b883"
+        "color": "#313131"
       },
       {
         "name": "react",
         "value": 30,
-        "color": "#61DBFB"
+        "color": "#313131"
       },
       {
         "name": "node.js",
         "value": 20,
-        "color": "#68A063"
+        "color": "#313131"
       },
       {
         "name": "jquery",
         "value": 70,
-        "color": "#0769AD"
+        "color": "#313131"
       },
       {
         "name": "html&css",
         "value": 80,
-        "color": "#e34c26"
+        "color": "#313131"
       }
     ]
   },

@@ -62,7 +62,7 @@
   },
   "skills": {
     "title": "skills",
-    "subtitle": "I prefer to use Linux & WebStorm IDE. I also know: Git, Javascript, Vue, Nuxt, React, Webpack, Vite, Node.js, Mocha, SQL, HTML/CSS, Tailwind. English: B2",
+    "subtitle": "I prefer to use Linux & WebStorm IDE. I also know: Git, Javascript, TypeScript, Vue, Nuxt, React, Webpack, Vite, Node.js, Mocha, SQL, HTML/CSS, Tailwind. English: B2",
     "items": [
       {
         "name": "javascript",

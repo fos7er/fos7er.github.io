@@ -62,7 +62,7 @@
   },
   "skills": {
     "title": "навыки",
-    "subtitle": "При разработке я использую OS Linux/Windows, WebStorm. Так же владею следующими технологиями: Git, Javascript, Vue, Nuxt, React, Webpack, Vite, Node.js, Mocha, SQL, HTML/CSS, Tailwind. Английский: B2",
+    "subtitle": "При разработке я использую OS Linux/Windows, WebStorm. Так же владею следующими технологиями: Git, Javascript, TypeScript, Vue, Nuxt, React, Webpack, Vite, Node.js, Mocha, SQL, HTML/CSS, Tailwind. Английский: B2",
     "items": [
       {
         "name": "javascript",

@@ -26,57 +26,39 @@
   const works = [
     {
       id: 1,
-      img: '01.jpg',
-      title: 'Canadian Wanderlust',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
+      img: 'vue-modern-resume.jpg',
+      title: 'Modern resume template',
+      subHtml: '<h4> <a href="https://fos7er.github.io/vue-modern-resume/" >Link</a>  Source on - <a href="https://github.com/fos7er/vue-modern-resume" > GitHub </a></h4> <p> Vue modern resume template</p>'
     },
     {
       id: 2,
-      img: '02.jpg',
-      title: 'Fury Fighting Gear',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
+      img: 'kino-searcher.jpg',
+      title: 'Kino searcher app',
+      subHtml: '<h4> Source on - <a href="https://github.com/fos7er/vuetify-kino-searcher" > GitHub </a></h4> <p> Kino searcher app with authentification, database and torrents synchronization</p>'
     },
     {
       id: 3,
-      img: '03.jpg',
-      title: 'Original Thai Food',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
+      img: 'miatel.ru.jpg',
+      title: 'miatel.ru',
+      subHtml: '<p>Miatel.ru landing site</p>'
     },
     {
       id: 4,
-      img: '04.jpg',
-      title: 'Resume Website',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
+      img: 'fonetica.jpg',
+      title: 'fonetica.ch',
+      subHtml: '<p>Fonetica.ch landing site</p>'
     },
     {
       id: 5,
-      img: '05.jpg',
-      title: 'Smirkspace',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
+      img: 'xms.jpg',
+      title: 'XMS project',
+      subHtml: '<p>Bulk SMS sending application</p>'
     },
     {
       id: 6,
-      img: '06.jpg',
-      title: 'Canadian Wanderlust',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
-    },
-    {
-      id: 7,
-      img: '02.jpg',
-      title: 'Fury Fighting Gear',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
-    },
-    {
-      id: 8,
-      img: '01.jpg',
-      title: 'Original Thai Food',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
-    },
-    {
-      id: 9,
-      img: '05.jpg',
-      title: 'Resume Website',
-      subHtml: '<h4> Source on - <a href="https://github.com" > GitHub </a></h4> <p> My awesome  work example</p>'
+      img: 'miatel.com.jpg',
+      title: 'miatel.com',
+      subHtml: '<p>Miatel.com landing site</p>'
     }
   ]
 </script>

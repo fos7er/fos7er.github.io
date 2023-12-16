@@ -97,6 +97,7 @@
     ]
   },
   "portfolio": {
-    "title": "check out some of my works."
+    "title": "check out some of my works",
+    "showMore": "Show more"
   }
 }

@@ -40,7 +40,7 @@
             cursor-pointer
             z-10"
           >
-            Show more
+            {{ t('portfolio.showMore') }}
           </div>
         </div>
       </a>
@@ -52,6 +52,8 @@
 <script setup>
   import Lightgallery from 'lightgallery/vue'
   import lgZoom from 'lightgallery/plugins/zoom'
+
+  const { t } = useI18n()
 
   defineProps({
     imgSrc: {

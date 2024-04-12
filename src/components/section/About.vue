@@ -10,12 +10,13 @@
           <p class="mb-6">
             {{ t('about.subtitle') }}
           </p>
-          <h3 class="mb-3 text-lg text-white font-bold">{{ t('about.contactDetailsTitle')}}</h3>
+          <h3 class="mb-3 text-lg text-white font-bold">{{ t('about.contactDetailsTitle') }}</h3>
           <div class="md:grid grid-cols-2 gap-6">
             <div class="mb-6">
               <div class="address">
                 <div v-for="item in tm('about.contactDetails')">{{ item }}</div>
-                <a :href="`mailto:${email}`">{{ email }}</a>
+                <div>telegram: <a :href="`tg://resolve?domain=${telegram}`">{{ telegram }}</a></div>
+                <div><a :href="`mailto:${email}`">{{ email }}</a></div>
               </div>
             </div>
             <div class="btns-wrapper flex flex-col gap-y-6 lg:items-end">
@@ -36,7 +37,7 @@
                   target="_blank"
                 >
                   <span class="i-mdi-download mr-2"/>
-                  <span>{{ t('about.downloadBtnText')}}</span>
+                  <span>{{ t('about.downloadBtnText') }}</span>
                 </a>
               </div>
             </div>
@@ -49,7 +50,7 @@
 
 <script setup>
   import resume from '@/assets/docs/resume.pdf'
-  import { email } from '@/assets/constants'
+  import { email, telegram } from '@/assets/constants'
 
   const { t, tm } = useI18n()
 </script>

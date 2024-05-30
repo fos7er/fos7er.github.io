@@ -87,7 +87,7 @@
 
   let showItems = ref(false)
   const label = computed(() => {
-    if (!props.modelValue) return props.placeholder || t('Choose')
+    if (!props.modelValue || !props.options.length) return props.placeholder || t('Choose')
     return props.options.find(option => option.value === props.modelValue).label
   })
 

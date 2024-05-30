@@ -39,10 +39,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/sitemap',
     '@pinia/nuxt',
     '@nuxt/image',
-    '@vueuse/nuxt',
-    'nuxt-simple-sitemap'
+    '@vueuse/nuxt'
   ],
   i18n: {
     vueI18n: './i18n.config.js',

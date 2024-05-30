@@ -38,15 +38,15 @@
     },
     {
       id: 3,
-      img: 'miatel.ru.jpg',
-      title: 'miatel.ru',
-      subHtml: '<h4> <a href="https://miatel.ru" target="_blank">Website</a> </h4> <p>Miatel.ru landing</p>'
+      img: 'miatel.com.jpg',
+      title: 'miatel.com',
+      subHtml: '<h4> <a href="https://miatel.com" target="_blank">Website</a> </h4> <p>Miatel.com landing site</p>'
     },
     {
       id: 4,
-      img: 'fonetica.jpg',
-      title: 'fonetica.ch',
-      subHtml: '<h4> <a href="https://fonetica.ch" target="_blank">Website</a> </h4> <p>Fonetica.ch landing</p>'
+      img: 'miatel.ru.jpg',
+      title: 'miatel.ru',
+      subHtml: '<h4> <a href="https://miatel.ru" target="_blank">Website</a> </h4> <p>Miatel.ru landing</p>'
     },
     {
       id: 5,
@@ -56,9 +56,9 @@
     },
     {
       id: 6,
-      img: 'miatel.com.jpg',
-      title: 'miatel.com',
-      subHtml: '<h4> <a href="https://miatel.com" target="_blank">Website</a> </h4> <p>Miatel.com landing site</p>'
+      img: 'fonetica.jpg',
+      title: 'fonetica.ch',
+      subHtml: '<h4> <a href="https://fonetica.ch" target="_blank">Website</a> </h4> <p>Fonetica.ch landing</p>'
     }
   ]
 </script>
